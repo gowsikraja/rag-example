@@ -1,6 +1,10 @@
 version = 1
 revision = 3
 requires-python = ">=3.13"
+resolution-markers = [
+    "python_full_version >= '3.14'",
+    "python_full_version < '3.14'",
+]
 
 [[package]]
 name = "aiohappyeyeballs"
@@ -2473,6 +2477,7 @@ dependencies = [
     { name = "langchain-core" },
     { name = "pymupdf" },
     { name = "pypdf" },
+    { name = "python-dotenv" },
     { name = "sentence-transformers" },
 ]
 
@@ -2486,6 +2491,7 @@ requires-dist = [
     { name = "langchain-core", specifier = ">=1.0.6" },
     { name = "pymupdf", specifier = ">=1.26.6" },
     { name = "pypdf", specifier = ">=6.3.0" },
+    { name = "python-dotenv", specifier = ">=1.2.1" },
     { name = "sentence-transformers", specifier = ">=5.1.2" },
 ]
 
